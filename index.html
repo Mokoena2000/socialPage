@@ -1,103 +1,83 @@
-<!Doctype html>
+<!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1,0">
-        <title>Social Page</title>
-        
-        <style>
-            @media html{
-                min-width{
-                    width: 375px ;
-                }
-                max-width{
-                    width: 1440px;
-                }
-            }
-            html{
-                background-color: hsl(0, 0%, 8%);
-                font-family: " [Inter](https://fonts.google.com/specimen/Inter)";
-                font-weight: 400, 600, 700;
-            }
-            img{
-                margin-left: 35%;
-                border-radius: 50%;
-                
-            }
-            .text1, .text2, .text3, .text4, .text5{
-                color: white;
-                background-color:hsl(0, 0%, 20%);
-                border-radius: 10%;
-                text-align: center;
-                padding: 0.5%;
-                margin: 3%;
-                cursor: pointer;
-            }
-            h1{
-                color: white;
-            }
-            P{
-                font-size: 16px;
-                color: white;
-                margin-top: 10%;
-            }
-            .sub{
-                color: hsl(75, 94%, 57%);
-                
-            }
-            .heading, p{
-                text-align: center;
-            }
-            body{
-                background-color: hsl(0, 0%, 12%);
-                margin: 30%;
-                padding: 3%;
-                border-radius: 2%;
-                margin-top: 20%;
-                margin-bottom: 20%;
-            }
-            footer{
-                text-align: center;
-                margin-top: 10%;
-            }
-            .c{
-              color: white;  
-              
-            }
-
-        </style>
-    </head>
-    <body>
-        <div class="container-fluid">
-        
-            <a href="#"><img src="assets/images/avatar-jessica.jpeg"></a>
-        
-        
-        <div class="heading">
-            <h1>Jessica Randall </h1>
-            <h3 class="sub">London, United Kingdom</h3>
-        </div>
-        
-        <h3><p>"Front-end developer and avid reader"</p></h3>
-
-        <a href="https://github.com/"><div class="text1"><h3>Github</h3></div></a>
-        <a href="https://www.frontendmentor.io/home"><div class="text2"><h3>Frontend Mentor</h3></div></a>
-        <a  href="https://www.linkedin.com/feed/"><div class="text3"><h3>Linkedin</h3></div></a>
-        <a  href="https://twitter.com/home"><div class="text4"><h3>Twitter</h3></div></a>
-        <a  href="https://www.instagram.com/?hl=en"><div class="text5"><h3>Instagram</h3></div></a>
-        
-    
-
-    
-    </div>
+    <header>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1,0">
+    <title>Social Page</title>
+    <style>
+        html{
+            background-color: hsl(0, 0%, 8%);
+            padding-right: 30%;
+            padding-left: 30%;
+        }
+        main{
+            background-color: hsl(0, 0%, 12%);
+            padding: 3%;
+        }
        
+        h3{
+            background-color: hsl(0, 0%, 20%);
+            text-align: center;
+            padding: 2%;
+            margin: 5%;
+            border-radius: 5%;
+            
+        }
+        a{
+            color: white;
+        }
+       
+        
+    </style>
+</header>
+<body>
+  <main>
+    <!--START-IMAGE-SECTION-->
+    <main class="container-fluid">
+      <section id="img">
+       <img src="assets/images/avatar-jessica.jpeg" alt="picture if jessica">
+      </section>
+    </main>
+    <!--START-IMAGE-SECTION-->
 
-</body>
+    <!--STARRT-GRAND-SECTION-->
+    <main class="container-fluid">
+        <section id="grand">
+            <h1>Jessica Randall</h1>
+        </section>
+    </main>
+    <!--END-GRAND-SECTION-->
     
-<footer>
-        Challenge by <a class="c" href="https://www.frontendmentor.io/home">FrontendMentor</a>
-        Coded by <a class="c" href="#">Moholeng Mokoena</a>
+    <!--STARRT-PARENT-SECTION-->
+    <main class="container-fluid">
+        <section id="parent">
+            <h2>London, United Kingdom</h2>
+        </section>
+    </main>
+    <!--END-PARENT-SECTION-->
+  
+    <!--STARRT-CHILD-SECTION-->
+    <main class="container-fluid">
+        <section id="child">
+            <p>"Front-end developer and avid reader"</p>
+        </section>
+    </main>
+    <!--END-CHILD-SECTION-->
 
-    </footer>
- 
+    <!--START-LIST-SECTION-->
+    <main class="container-flud">
+        <section id="list">
+            <a href="#"><h3>GitHub</h3></a>
+            <a href="#"><h3>FrontendMentor</h3></a>
+            <a href="#"><h3>Linkedin</h3></a>
+            <a  href="#"><h3>Twitter</h3></a>
+            <a  href="#"><h3>Instragram</h3></a>
+        </section>
+    </main>
+    <!--END-LIST-SECTION-->
+
+
+  </main>
+</body>
+
 </html>
