@@ -4,9 +4,20 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1,0">
         <title>Social Page</title>
+        
         <style>
+            @media html{
+                min-width{
+                    width: 375px ;
+                }
+                max-width{
+                    width: 1440px;
+                }
+            }
             html{
                 background-color: hsl(0, 0%, 8%);
+                font-family: " [Inter](https://fonts.google.com/specimen/Inter)";
+                font-weight: 400, 600, 700;
             }
             img{
                 margin-left: 35%;
@@ -18,17 +29,21 @@
                 background-color:hsl(0, 0%, 20%);
                 border-radius: 10%;
                 text-align: center;
-                padding: 1%;
-                margin: 3%
-                
-                
-                
+                padding: 0.5%;
+                margin: 3%;
+                cursor: pointer;
             }
-            h1, p{
+            h1{
                 color: white;
+            }
+            P{
+                font-size: 16px;
+                color: white;
+                margin-top: 10%;
             }
             .sub{
                 color: hsl(75, 94%, 57%);
+                
             }
             .heading, p{
                 text-align: center;
@@ -37,9 +52,15 @@
                 background-color: hsl(0, 0%, 12%);
                 margin: 30%;
                 padding: 3%;
-                border-radius: 3%;
+                border-radius: 2%;
                 margin-top: 20%;
                 margin-bottom: 20%;
+            }
+            footer{
+                text-align: center;
+            }
+            .c{
+              color: white;  
             }
 
         </style>
@@ -55,13 +76,13 @@
             <h3 class="sub">London, United Kingdom</h3>
         </div>
         
-        <p style="font-size: 14px;">"Front-end developer and avid reader"</p>
+        <h3><p>"Front-end developer and avid reader"</p></h3>
 
-        <div class="text1"><h3>Github</h3></div>
-        <div class="text2"><h3>Frontend Mentor</h3></div>
-        <div class="text3"><h3>Linkedin</h3></div>
-        <div class="text4"><h3>Twitter</h3></div>
-        <div class="text5"><h3>Instagram</h3></div>
+        <a href="https://github.com/"><div class="text1"><h3>Github</h3></div></a>
+        <a href="https://www.frontendmentor.io/home"><div class="text2"><h3>Frontend Mentor</h3></div></a>
+        <a  href="https://www.linkedin.com/feed/"><div class="text3"><h3>Linkedin</h3></div></a>
+        <a  href="https://twitter.com/home"><div class="text4"><h3>Twitter</h3></div></a>
+        <a  href="https://www.instagram.com/?hl=en"><div class="text5"><h3>Instagram</h3></div></a>
         
     
 
@@ -69,8 +90,11 @@
     </div>
        
 
-    </body>
-    <footer>
+</body>
+    
+<footer>
+        Challenge by <a class="c" href="https://www.frontendmentor.io/home">FrontendMentor</a>
+        Coded by <a class="c" href="#">Moholeng Mokoena</a>
 
     </footer>
  
